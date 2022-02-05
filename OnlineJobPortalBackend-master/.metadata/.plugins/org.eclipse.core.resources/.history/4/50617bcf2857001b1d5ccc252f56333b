@@ -1,0 +1,5 @@
+package com.onlinejobportal.in.jobdetails.exceptions;
+
+public class ErrorMessage {
+
+}

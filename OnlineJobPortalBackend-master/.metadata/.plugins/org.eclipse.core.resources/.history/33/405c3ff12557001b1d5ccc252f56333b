@@ -1,0 +1,5 @@
+package com.onlinejobportal.in.jobdetails.dao;
+
+public class IJobDetailsDao {
+
+}

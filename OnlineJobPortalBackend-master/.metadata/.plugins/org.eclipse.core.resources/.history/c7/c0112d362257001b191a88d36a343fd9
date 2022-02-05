@@ -1,0 +1,5 @@
+package com.onlinejobportal.in.jobprovider.util;
+
+public class GlobalExceptionsHandler {
+
+}

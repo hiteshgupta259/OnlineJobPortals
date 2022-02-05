@@ -1,0 +1,64 @@
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: fixed;
+    width: 100%;
+    color: #D3D3D3;
+    background-color: gray;
+    text-align: center;
+    bottom: 0;
+  }
+  
+
+#backgroundHome{
+    background-color:black;
+}
+
+.buttonCenter {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
+.updateBorder{
+    border: 2px solid lightgrey;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.postForm {
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postButton {
+    margin-left: 2cm;
+}
+
+.cancelButton {
+    margin-right: 4cm;
+}
+
+.providerBackground {
+    background-image: url('../images/JobProviderHome.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

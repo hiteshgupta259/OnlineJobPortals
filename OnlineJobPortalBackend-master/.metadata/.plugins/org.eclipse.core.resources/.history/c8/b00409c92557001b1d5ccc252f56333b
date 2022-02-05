@@ -1,0 +1,14 @@
+package com.onlinejobportal.in.jobdetails.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.onlinejobportal.in.jobdetails.model.JobDetails;
+
+public interface JobDetailsRepository extends CrudRepository<JobDetails, Long> {
+	
+	List<JobDetails> findByJobDescription(String jobDescription);<JobDetails> findByJobSkillsContainingIgnoreCase(String jobSkills);
+	List<JobDetails> findByJobSalaryGreaterThanEqual(Double jobSalary);
+	List<JobDetails> findByJobExperienceGreaterThanEqual(String jobExperience);
+	List<JobDetails> findByJobDesignationContainingIgnoreCase(String jobDesignation);
+	
+}
